@@ -1,24 +1,30 @@
 body{
-background:#222;
-color:white;
-text-align:center;
+    background:#222;
+    color:white;
+    text-align:center;
+    font-family:Arial,sans-serif;
 }
 
 #tabuleiro{
-display:grid;
-grid-template-columns:repeat(3,100px);
-gap:5px;
-justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(3,100px);
+    gap:5px;
+    justify-content:center;
+    margin-top:20px;
 }
 
 .casa{
-width:100px;
-height:100px;
-background:white;
-color:black;
-font-size:60px;
-display:flex;
-justify-content:center;
-align-items:center;
-cursor:pointer;
+    width:100px;
+    height:100px;
+    background:white;
+    color:black;
+    font-size:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.casa:hover{
+    background:#ddd;
 }
